@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package sum;
+package sumPackage;
 
 service SumService{
     rpc Sum(SumRequest) returns(SumResponse){};

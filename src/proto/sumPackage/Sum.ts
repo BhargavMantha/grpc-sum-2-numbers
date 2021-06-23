@@ -1,4 +1,4 @@
-// Original file: proto/sum.proto
+// Original file: src/proto/sum.proto
 
 
 export interface Sum {

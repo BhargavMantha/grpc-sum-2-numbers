@@ -4,7 +4,9 @@
   "description": "Theis project handles addition of 2 numbers using gRPC",
   "main": "./server/index.server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "ts-node ./src/main",
+    ":start:client": "ts-node client"
   },
   "keywords": [
     "gRPC",
